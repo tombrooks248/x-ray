@@ -29,7 +29,7 @@ st.set_page_config(
 #On page Title and Logo
 #-------------------------------------------------------------------------------
 
-image = Image.open('x-ray-logo.jpeg')
+image = Image.open('app/x-ray-logo.jpeg')
 
 col1, col2 = st.columns(2)
 with col1:
@@ -47,17 +47,17 @@ with col2:
 st.markdown("---")
 
 ## importing images before selection
-image = Image.open("../data/web_test/NORMAL/IM-0075-0001.jpeg")
+image = Image.open("data/web_test/NORMAL/IM-0075-0001.jpeg")
 
 
 
 #Form for selecting X-Ray image to check
 #-------------------------------------------------------------------------------
 image_options=[
-        Image.open("../data/web_test/PNEUMONIA/person40_virus_87.jpeg"),
-        Image.open("../data/web_test/PNEUMONIA/person24_virus_58.jpeg"),
-        Image.open("../data/web_test/NORMAL/IM-0079-0001.jpeg"),
-        Image.open("../data/web_test/NORMAL/IM-0077-0001.jpeg"),
+        Image.open("data/web_test/PNEUMONIA/person40_virus_87.jpeg"),
+        Image.open("data/web_test/PNEUMONIA/person24_virus_58.jpeg"),
+        Image.open("data/web_test/NORMAL/IM-0079-0001.jpeg"),
+        Image.open("data/web_test/NORMAL/IM-0077-0001.jpeg"),
     ]
 
 

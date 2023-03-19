@@ -6,9 +6,11 @@ import numpy as np
 import pandas as pd
 import pickle
 import cv2
+import
 from PIL import Image
 
-filename = '../models/x-ray_model.pkl'
+
+filename = 'models/x-ray_model.pkl'
 model = pickle.load(open(filename, 'rb'))
 img_size = 150
 

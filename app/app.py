@@ -108,11 +108,12 @@ if (search_input):
     prediction = prediction*10000
     prediction = np.log(prediction)
     prediction = prediction/10
-
     prediction = prediction +0.5
+
     if prediction > 1:
         prediction = 0.999
 
+    prediction = 1- prediction
 
     if prediction < 0.5:
         st.markdown('#### '+ ':green['+str(round(prediction*100,2))+'%]')

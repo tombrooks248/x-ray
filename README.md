@@ -1,6 +1,6 @@
 # 🩻 x-ray - who has pnumonia and who does not?
 
-X-ray Analyser is a simple Neural Network trained on [this set of X-rays from kaggle](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia)
+X-ray Analyser is a simple Neural Network trained on [this set of X-rays from kaggle](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia). 
 
 The model is built using Tensor Flow Sequential. It has an accuracy of 86%. 
 

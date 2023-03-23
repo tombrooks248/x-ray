@@ -1,6 +1,4 @@
-# 🩻 x-ray 
-X-ray Analyser - who has pnumonia and who does not?
-
+# 🩻 x-ray - who has pnumonia and who does not?
 
 X-ray Analyser is a simple Neural Network trained on [this set of X-rays from kaggle](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia)
 
